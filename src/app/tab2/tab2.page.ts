@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-tab2',
@@ -7,6 +8,13 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
-  constructor() {}
+  name = 'Reportar'; 
+  linkEmbed = "https://docs.google.com/forms/d/e/1FAIpQLSerOvglQmQUQz77MFIaGTJnoYppGVl6GLUHoFgGavshqYSJHQ/viewform?embedded=true";
+
+  constructor(protected sanitizer: DomSanitizer) {}
+
+  sanitizerResources(value){
+    return this.sanitizer.bypassSecurityTrustResourceUrl(value);
+  }
 
 }
