@@ -20,7 +20,7 @@ export class CalculatorPage implements OnInit {
   calcularMedia(){
     if(this.media < 40.0){
       this.quantoFalta = "Moss, tu não faz nem a final :("
-    } else if(this.media > 70.0){
+    } else if(this.media >= 70.0){
       this.quantoFalta = "Moss, você já passou :)"
     } else{
       var v1 = 60.0;
