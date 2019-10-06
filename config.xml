@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.processando.direito" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Processando Direito</name>
     <description>O aplicativo tem como motor de criação o podcast Processando Direito. A ideia foi a de divulgar o podcast com algumas funcionalidades que ultrapassa as necessidades do curso Direito e é comum a todos os acadêmicos da UNIFTC. Reunimos os telefones úteis da UNIFTC do campus de Vitória da Conquista e desenvolvemos um algoritmo para calcular a nota necessária para passar na prova final, dando assim mais comodidade para o acadêmico que antes quebrava a cabeça com uma tabela de notas.</description>
     <author email="contato@luischaves.com.br" href="http://www.luischaves.com.br/">Luis Chaves</author>
